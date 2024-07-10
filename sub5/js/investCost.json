@@ -1,0 +1,40 @@
+{
+    "cost": [
+        {
+            "PY": 25,
+            "Deposit": 1000,
+            "Open": 1000,
+            "Edu": 250,
+            "Design": 300,
+            "Interior": "6,100 ~ 6,900" ,
+            "Signboard": "700 ~ 900",
+            "Furniture": "2,600 ~ 3,200",
+            "Facility": "8,700 ~ 9,700",
+            "ElecHeat": "1,500 ~ 1,800"
+        },
+        {
+            "PY": 30,
+            "Deposit": 1000,
+            "Open": 1000,
+            "Edu": 250,
+            "Design": 350,
+            "Interior": "6,700 ~ 7,500" ,
+            "Signboard": "800 ~ 1,000",
+            "Furniture": "2,900 ~ 3,500",
+            "Facility": "8,900 ~ 10,500",
+            "ElecHeat": "1,500 ~ 2,000"
+        },
+        {
+            "PY": 40,
+            "Deposit": 1000,
+            "Open": 1000,
+            "Edu": 250,
+            "Design": 400,
+            "Interior": "8,500 ~ 9,200" ,
+            "Signboard": "1,000 ~ 1,200",
+            "Furniture": "3,700 ~ 4,300",
+            "Facility": "9,500 ~ 11,000",
+            "ElecHeat": "1,800 ~ 2,500"
+        }
+    ]
+  }
