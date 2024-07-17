@@ -1,6 +1,7 @@
 @charset "utf-8";
 /* font-family: "Lato", sans-serif; */
 /* font-family: "Noto Sans KR", sans-serif; */
+
 /* 비주얼영역 */ 
 .visual{width: 2000px; height: 850px; margin-top: 158px; overflow: hidden; background: #000;
 position: relative; top:0; left: 50%; transform: translateX(-50%);}
@@ -12,7 +13,7 @@ position: relative; top:0; left: 50%; transform: translateX(-50%);}
     from {transform: scale(1);}
     to {transform: scale(1.1);}
 }
-
+/* 화면글 */
 .gallery li span{position: absolute; left:0; top: 150px;
     opacity: 0; font-size: 60px; color: #fff; width: 100%;
     display: block; text-align: center;}
@@ -24,9 +25,9 @@ position: relative; top:0; left: 50%; transform: translateX(-50%);}
 
 .dock .mbutton{ margin-right:15px; cursor : pointer;
     display:block; float:left; width:16px; height:16px;
-   background: rgba(255,255,255,0); border-radius:50%; border: 2px solid #fff;
-   outline: 2px solid rgba(255,255,255,0); outline-offset: 3px;
-  transition: all .5s}
+background: rgba(255,255,255,0); border-radius:50%; border: 2px solid #fff;
+outline: 2px solid rgba(255,255,255,0); outline-offset: 3px;
+transition: all .5s}
 
 .dock .ps{margin-right:15px; margin-top: -5px; cursor:pointer; 
     display:block; float:left; width:25px; height:25px;
@@ -37,8 +38,7 @@ position: relative; top:0; left: 50%; transform: translateX(-50%);}
 .visual .btn:hover{opacity: .8;}
 .visual .btn i{font-size:5rem ;}
 .visual .btnLeft{margin-left: -850px;}
-.visual .btnRight{margin-left: 800px;}    
-
+.visual .btnRight{margin-left: 800px;}
     
 /* 본문 콘텐츠 영역 */
 #content{width:100%;}
@@ -48,7 +48,7 @@ position: relative; top:0; left: 50%; transform: translateX(-50%);}
 }
 
 .brand{overflow: hidden; width: 1600px; margin: 0 auto; position: relative;
-     padding-left: 180px; box-sizing: border-box;}
+    padding-left: 180px; box-sizing: border-box;}
 .brand h3{margin: 100px 0 50px;}
 .brand p{
     font-size: 3rem; font-weight: 700;
@@ -68,7 +68,7 @@ position: relative; top:0; left: 50%; transform: translateX(-50%);}
 .brand div img:nth-of-type(1){top:120px; right:0}
 .brand div img:nth-of-type(2){top:400px; right:100px; box-shadow: 2px 2px 15px 2px rgba(0,0,0,.4);}
 .brand .more{color:#005533 ; margin: 80px 0 100px 350px; position: relative;
-     font-size: 1.1em;}
+    font-size: 1.1em;}
 .brand .more span{position: absolute; left:175px; top:1px}
 
 .goods{width: 2000px; background:rgba(238, 238, 221, 1); overflow: hidden;
@@ -114,9 +114,9 @@ position: relative; top:0; left: 50%; transform: translateX(-50%);}
     position: relative; top:0; left: 50%; transform: translateX(-50%);}
 #content .buy section{position:absolute;width: 1000px; height: 600px;
     color: rgba(0, 85, 51, 1);  background:rgba(255, 255, 255, .5);top: 150px; left: 0;}
- #content .buy section:last-child{left: auto; right: 0; top: 230px;}
+#content .buy section:last-child{left: auto; right: 0; top: 230px;}
 
- #content .buy section div{display: block; text-align: center;
+#content .buy section div{display: block; text-align: center;
     width: 400px; padding: 100px;
     float: right;}
 #content .buy section:last-child div{float: none;}
@@ -195,4 +195,4 @@ margin: -4px auto; font-weight: 600;}
 #content section:nth-of-type(1){
     background:red; width:2000px; position:relative;
     left:50%;translateX(-50%);}
- */
+*/
