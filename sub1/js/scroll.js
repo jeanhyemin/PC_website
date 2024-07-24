@@ -3,13 +3,13 @@ $(document).ready(function () {
     $('.subNav li:eq(0)').find('a').addClass('spy');
     //첫번째 서브메뉴 활성화
     
-    $('#content div:eq(0)').addClass('boxMove');
+    $('#content_area div:eq(0)').addClass('boxMove');
     //첫번째 내용글 애니메이션 처리
     var smh= $('.main').height();  //메인 비주얼의 높이
-    var h1= $('#content div:eq(1)').offset().top-600 ;
+    var h1= $('#content_area div:eq(1)').offset().top-600 ;
     //offset().top=위에서부터거리
-    var h2= $('#content div:eq(2)').offset().top-700 ;
-    var h3= $('#content div:eq(3)').offset().top-800 ;
+    var h2= $('#content_area div:eq(2)').offset().top-700 ;
+    var h3= $('#content_area div:eq(3)').offset().top-800 ;
 
      //스크롤의 좌표가 변하면.. 스크롤 이벤트
     $(window).on('scroll',function(){
@@ -77,7 +77,7 @@ $(document).ready(function () {
         
     */    
    /* --------------- */
-    if(scroll>130){
+    if(scroll>350){
         $('#content .event').addClass('eventfixed');
     }else{
         $('#content .event').removeClass('eventfixed');
